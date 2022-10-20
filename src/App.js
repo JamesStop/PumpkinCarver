@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import LeftEye from './components/LeftEye';
+import Mouth from './components/Mouth';
+import RightEye from './components/RightEye';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <body>
+      <div className="options">
+
+      </div>
+      <div className="pumpkin">
+        <Mouth />
+        <LeftEye />
+        <RightEye />
+      </div>
+    </body>
   );
 }
 

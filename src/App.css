@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+
+
+.pumpkin {
+  height: 80vmin;
+  width: 80vmin;
+  background-image: url("./pumpkin.jpg");
+  background-size: 100% 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.options {
+  height: 90%;
+  width: 20%;
+  border: 1px solid black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.carveSpace {
+  border: 1px solid black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.leftEye {
+  height: 20%;
+  width: 20%;
+  position: absolute;
+  top: 35%;
+  left: 20%;
 }
 
-.App-link {
-  color: #61dafb;
+.rightEye {
+  height: 20%;
+  width: 20%;
+  position: absolute;
+  top: 35%;
+  right: 20%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mouth {
+  height: 20%;
+  width: 60%;
+  position: absolute;
+  bottom: 15%;
+  left: 20%;
 }
