@@ -1,4 +1,10 @@
-
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .pumpkin {
   height: 80vmin;
@@ -39,4 +45,12 @@
   position: absolute;
   bottom: 15%;
   left: 20%;
+}
+
+.carving {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  box-sizing: content-box;
+  border: 10px solid black;
 }

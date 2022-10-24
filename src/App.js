@@ -5,7 +5,7 @@ import RightEye from './components/RightEye';
 
 function App() {
   return (
-    <body>
+    <main>
       <div className="options">
 
       </div>
@@ -14,7 +14,7 @@ function App() {
         <LeftEye />
         <RightEye />
       </div>
-    </body>
+    </main>
   );
 }
 
